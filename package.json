@@ -1,0 +1,23 @@
+{
+  "name": "spaceeyesatelliteconfig",
+  "version": "1.0.0",
+  "description": "Config for satellite views available in the Space Eye application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KYDronePilot/SpaceEyeSatelliteConfig.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KYDronePilot/SpaceEyeSatelliteConfig/issues"
+  },
+  "homepage": "https://github.com/KYDronePilot/SpaceEyeSatelliteConfig#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-yaml": "git+https://github.com/crissdev/gulp-yaml.git#157acf416e84700bf4f2c5674795937d7ce8b96a"
+  }
+}
