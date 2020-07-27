@@ -1,0 +1,240 @@
+version: "0.0.1"
+satellites:
+  - id: 0
+    name: GOES-East
+    views:
+      - id: 0
+        name: Full Disk
+        imageSources:
+          - id: 0
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 1
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/678x678.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 2
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/5424x5424.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 3
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+      - id: 1
+        name: Continental US
+        imageSources:
+          - id: 4
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 5
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/625x375.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 6
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/5000x3000.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 7
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+      - id: 2
+        name: Tropical Atlantic
+        imageSources:
+          - id: 8
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 9
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/900x540.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 10
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/3600x2160.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 11
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+      - id: 3
+        name: Northern South America
+        imageSources:
+          - id: 12
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 13
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/900x540.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 14
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/3600x2160.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 15
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+      - id: 4
+        name: Southern South America
+        imageSources:
+          - id: 16
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 17
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/900x540.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 18
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/3600x2160.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 19
+            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+  - id: 1
+    name: GOES-West
+    views:
+      - id: 5
+        name: Full Disk
+        imageSources:
+          - id: 20
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 21
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/678x678.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 22
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/5424x5424.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 23
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+      - id: 6
+        name: Tropical Pacific
+        imageSources:
+          - id: 24
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 25
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/900x540.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 26
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/3600x2160.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 27
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+      - id: 7
+        name: US West Coast
+        imageSources:
+          - id: 28
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 29
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/625x375.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 30
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/5000x3000.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 31
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+      - id: 8
+        name: Northern Pacific
+        imageSources:
+          - id: 32
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/thumbnail.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 33
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/900x540.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 34
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/7200x4320.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 35
+            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/latest.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+  - id: 2
+    name: Himawari-8
+    views:
+      - id: 9
+        name: Full Disk
+        imageSources:
+          - id: 36
+            url: http://rammb.cira.colostate.edu/ramsdis/online/images/thumb/himawari-8/full_disk_ahi_true_color.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 37
+            url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest/himawari-8/full_disk_ahi_true_color.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 38
+            url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest_hi_res/himawari-8/full_disk_ahi_true_color.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
+
+          - id: 39
+            url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest_hi_res/himawari-8/full_disk_ahi_true_color.jpg
+            updateInterval: 1200
+            dimensions: [10, 10]
