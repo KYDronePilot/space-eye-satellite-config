@@ -10,6 +10,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 1
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/678x678.jpg
@@ -33,6 +34,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 5
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/625x375.jpg
@@ -56,6 +58,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 9
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/900x540.jpg
@@ -79,6 +82,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 13
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/900x540.jpg
@@ -102,6 +106,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 17
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/900x540.jpg
@@ -128,6 +133,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 21
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/678x678.jpg
@@ -151,6 +157,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 25
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/900x540.jpg
@@ -174,6 +181,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 29
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/625x375.jpg
@@ -197,6 +205,7 @@ satellites:
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/thumbnail.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 33
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/900x540.jpg
@@ -223,6 +232,7 @@ satellites:
             url: http://rammb.cira.colostate.edu/ramsdis/online/images/thumb/himawari-8/full_disk_ahi_true_color.jpg
             updateInterval: 1200
             dimensions: [10, 10]
+            isThumbnail: true
 
           - id: 37
             url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest/himawari-8/full_disk_ahi_true_color.jpg
