@@ -1,6 +1,6 @@
 {
   "name": "spaceeyesatelliteconfig",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Config for satellite views available in the Space Eye application",
   "main": "index.js",
   "scripts": {
