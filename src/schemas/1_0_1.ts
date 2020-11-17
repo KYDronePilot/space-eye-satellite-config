@@ -18,8 +18,21 @@ export interface RootSatelliteConfig {
  */
 export function transform(baseConfig: RootSatelliteConfigBase): RootSatelliteConfig {
     return {
-        satellites: baseConfig.satellites
-    }
+        satellites: baseConfig.satellites.map((satellite) => ({
+          ...satellite,
+          views: satellite.views.map((view) => ({ 
+              ...view,
+              imageSources: view.imageSources.map(imageSource => ({
+                id: imageSource.id,
+                url: imageSource.url,
+                estimatedSize: imageSource.estimatedSize,
+                updateInterval: imageSource.updateInterval,
+                dimensions: imageSource.dimensions,
+                isThumbnail: imageSource.isThumbnail,
+              }))
+           })),
+        })),
+      };
 }
 
 export const version = '1.0.1'

@@ -12,24 +12,28 @@ satellites:
             updateInterval: 1200
             dimensions: [339, 339]
             isThumbnail: true
+            defaultScaling: fit
 
           - id: 1
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/678x678.jpg
             estimatedSize: 88K
             updateInterval: 1200
             dimensions: [678, 678]
+            defaultScaling: fit
 
           - id: 2
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/5424x5424.jpg
             estimatedSize: 3.1M
             updateInterval: 1200
             dimensions: [5424, 5424]
+            defaultScaling: fit
 
           - id: 3
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/latest.jpg
             estimatedSize: 48M
             updateInterval: 3600
             dimensions: [10848, 10848]
+            defaultScaling: fit
 
       - id: 1
         name: Continental US
@@ -40,24 +44,28 @@ satellites:
             updateInterval: 1200
             dimensions: [416, 250]
             isThumbnail: true
+            defaultScaling: fill
 
           - id: 5
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/625x375.jpg
             estimatedSize: 53K
             updateInterval: 1200
             dimensions: [625, 375]
+            defaultScaling: fill
 
           - id: 6
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/5000x3000.jpg
             estimatedSize: 8.9M
             updateInterval: 1200
             dimensions: [5000, 3000]
+            defaultScaling: fill
 
           - id: 7
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/latest.jpg
             estimatedSize: 8.9M
             updateInterval: 1200
             dimensions: [5000, 3000]
+            defaultScaling: fill
 
       - id: 2
         name: Tropical Atlantic
@@ -68,24 +76,28 @@ satellites:
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
+            defaultScaling: fill
 
           - id: 9
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/900x540.jpg
             estimatedSize: 393K
             updateInterval: 1200
             dimensions: [900, 540]
+            defaultScaling: fill
 
           - id: 10
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/3600x2160.jpg
             estimatedSize: 3.8M
             updateInterval: 1200
             dimensions: [3600, 2160]
+            defaultScaling: fill
 
           - id: 11
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/latest.jpg
             estimatedSize: 11M
             updateInterval: 1200
             dimensions: [7200, 4320]
+            defaultScaling: fill
 
       - id: 3
         name: Northern South America
@@ -96,24 +108,28 @@ satellites:
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
+            defaultScaling: fill
 
           - id: 13
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/900x540.jpg
             estimatedSize: 401K
             updateInterval: 1200
             dimensions: [900, 540]
+            defaultScaling: fill
 
           - id: 14
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/3600x2160.jpg
             estimatedSize: 4.0M
             updateInterval: 1200
             dimensions: [3600, 2160]
+            defaultScaling: fill
 
           - id: 15
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/latest.jpg
             estimatedSize: 12M
             updateInterval: 1200
             dimensions: [7200, 4320]
+            defaultScaling: fill
 
       - id: 4
         name: Southern South America
@@ -124,24 +140,28 @@ satellites:
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
+            defaultScaling: fill
 
           - id: 17
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/900x540.jpg
             estimatedSize: 387K
             updateInterval: 1200
             dimensions: [900, 540]
+            defaultScaling: fill
 
           - id: 18
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/3600x2160.jpg
             estimatedSize: 4.2M
             updateInterval: 1200
             dimensions: [3600, 2160]
+            defaultScaling: fill
 
           - id: 19
             url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/latest.jpg
             estimatedSize: 13M
             updateInterval: 1200
             dimensions: [7200, 4320]
+            defaultScaling: fill
 
   - id: 1
     name: GOES-West
@@ -155,24 +175,28 @@ satellites:
             updateInterval: 1200
             dimensions: [339, 339]
             isThumbnail: true
+            defaultScaling: fit
 
           - id: 21
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/678x678.jpg
             estimatedSize: 94K
             updateInterval: 1200
             dimensions: [678, 678]
+            defaultScaling: fit
 
           - id: 22
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/5424x5424.jpg
             estimatedSize: 3.9M
             updateInterval: 1200
             dimensions: [5424, 5424]
+            defaultScaling: fit
 
           - id: 23
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/latest.jpg
             estimatedSize: 66M
             updateInterval: 3600
             dimensions: [10848, 10848]
+            defaultScaling: fit
 
       - id: 6
         name: Tropical Pacific
@@ -183,24 +207,28 @@ satellites:
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
+            defaultScaling: fill
 
           - id: 25
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/900x540.jpg
             estimatedSize: 512K
             updateInterval: 1200
             dimensions: [900, 540]
+            defaultScaling: fill
 
           - id: 26
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/3600x2160.jpg
             estimatedSize: 6.2M
             updateInterval: 1200
             dimensions: [3600, 2160]
+            defaultScaling: fill
 
           - id: 27
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/latest.jpg
             estimatedSize: 21M
             updateInterval: 1200
             dimensions: [7200, 4320]
+            defaultScaling: fill
 
       - id: 7
         name: US West Coast
@@ -211,24 +239,28 @@ satellites:
             updateInterval: 1200
             dimensions: [416, 250]
             isThumbnail: true
+            defaultScaling: fill
 
           - id: 29
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/625x375.jpg
             estimatedSize: 54K
             updateInterval: 1200
             dimensions: [625, 375]
+            defaultScaling: fill
 
           - id: 30
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/5000x3000.jpg
             estimatedSize: 11M
             updateInterval: 1200
             dimensions: [5000, 3000]
+            defaultScaling: fill
 
           - id: 31
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/latest.jpg
             estimatedSize: 11M
             updateInterval: 1200
             dimensions: [5000, 3000]
+            defaultScaling: fill
 
       - id: 8
         name: Northern Pacific
@@ -239,24 +271,28 @@ satellites:
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
+            defaultScaling: fill
 
           - id: 33
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/900x540.jpg
             estimatedSize: 472K
             updateInterval: 1200
             dimensions: [900, 540]
+            defaultScaling: fill
 
           - id: 34
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/7200x4320.jpg
             estimatedSize: 19M
             updateInterval: 1200
             dimensions: [7200, 4320]
+            defaultScaling: fill
 
           - id: 35
             url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/np/GEOCOLOR/latest.jpg
             estimatedSize: 19M
             updateInterval: 1200
             dimensions: [7200, 4320]
+            defaultScaling: fill
 
   - id: 2
     name: Himawari-8
@@ -270,21 +306,25 @@ satellites:
             updateInterval: 1200
             dimensions: [200, 200]
             isThumbnail: true
+            defaultScaling: fit
 
           - id: 37
             url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest/himawari-8/full_disk_ahi_true_color.jpg
             estimatedSize: 518K
             updateInterval: 1200
             dimensions: [800, 800]
+            defaultScaling: fit
 
           - id: 38
             url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest_hi_res/himawari-8/full_disk_ahi_true_color.jpg
             estimatedSize: 21M
             updateInterval: 1200
             dimensions: [5500, 5500]
+            defaultScaling: fit
 
           - id: 39
             url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest_hi_res/himawari-8/full_disk_ahi_true_color.jpg
             estimatedSize: 21M
             updateInterval: 1200
             dimensions: [5500, 5500]
+            defaultScaling: fit

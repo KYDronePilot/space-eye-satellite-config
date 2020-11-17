@@ -1,3 +1,5 @@
+import {RootSatelliteConfig as RootSatelliteConfigBase, SchemaInfo} from '../base'
+
 /**
  * Scaling options for images.
  */
@@ -46,7 +48,19 @@ export interface RootSatelliteConfig {
     satellites: Satellite[]
 }
 
-export interface SchemaInfo {
-    transformer: (baseConfig: RootSatelliteConfig) => any
-    version: string
+/**
+ * Transform the base config to a version 1.0.1 config.
+ *
+ * @param baseConfig - The base config
+ * @return Version 1.1.0 config
+ */
+export function transform(baseConfig: RootSatelliteConfigBase): RootSatelliteConfig {
+    return baseConfig
+}
+
+export const version = '1.1.0'
+
+export const info: SchemaInfo = {
+    transformer: transform,
+    version
 }
