@@ -328,3 +328,73 @@ satellites:
             updateInterval: 1200
             dimensions: [5500, 5500]
             defaultScaling: fit
+
+  - id: 3
+    name: Meteosat-8
+    views:
+      - id: 10
+        name: Full Disk (Beta testing new view; may change)
+        imageSources:
+          - id: 40
+            url: https://imagery.spaceeye.app/meteosat-8/full-disk/thumbnail.jpg
+            estimatedSize: 104.8K
+            updateInterval: 900
+            dimensions: [464, 464]
+            isThumbnail: true
+            defaultScaling: fit
+
+          - id: 41
+            url: https://imagery.spaceeye.app/meteosat-8/full-disk/small.jpg
+            estimatedSize: 391.5K
+            updateInterval: 900
+            dimensions: [928, 928]
+            defaultScaling: fit
+
+          - id: 42
+            url: https://imagery.spaceeye.app/meteosat-8/full-disk/medium.jpg
+            estimatedSize: 1.4M
+            updateInterval: 900
+            dimensions: [1856, 1856]
+            defaultScaling: fit
+
+          - id: 43
+            url: https://imagery.spaceeye.app/meteosat-8/full-disk/large.jpg
+            estimatedSize: 5.4M
+            updateInterval: 900
+            dimensions: [3712, 3712]
+            defaultScaling: fit
+
+  - id: 4
+    name: Meteosat-11
+    views:
+      - id: 11
+        name: Full Disk (Beta testing new view; may change)
+        imageSources:
+          - id: 44
+            url: https://imagery.spaceeye.app/meteosat-11/full-disk/thumbnail.jpg
+            estimatedSize: 100.2K
+            updateInterval: 900
+            dimensions: [464, 464]
+            isThumbnail: true
+            defaultScaling: fit
+
+          - id: 45
+            url: https://imagery.spaceeye.app/meteosat-11/full-disk/small.jpg
+            estimatedSize: 367.6K
+            updateInterval: 900
+            dimensions: [928, 928]
+            defaultScaling: fit
+
+          - id: 46
+            url: https://imagery.spaceeye.app/meteosat-11/full-disk/medium.jpg
+            estimatedSize: 1.3M
+            updateInterval: 900
+            dimensions: [1856, 1856]
+            defaultScaling: fit
+
+          - id: 47
+            url: https://imagery.spaceeye.app/meteosat-11/full-disk/large.jpg
+            estimatedSize: 4.8M
+            updateInterval: 900
+            dimensions: [3712, 3712]
+            defaultScaling: fit
