@@ -1,7 +1,12 @@
+import path from 'path'
+import fse from 'fs-extra'
+
+const CONFIG_DIST = path.join(__dirname, '..', 'config_dist')
+
 /**
  * Scaling options for images.
  */
-enum ScalingOption {
+export enum ScalingOption {
     fit = 'fit',
     fill = 'fill'
 }
@@ -49,4 +54,12 @@ export interface RootSatelliteConfig {
 export interface SchemaInfo {
     transformer: (baseConfig: RootSatelliteConfig) => any
     version: string
+}
+
+export async function saveConfig(config: {}, version: string) {
+    const configDir = path.join(CONFIG_DIST, version)
+    await fse.ensureDir(configDir)
+    const configFile = path.join(configDir, 'config.json')
+    const rawConfig = JSON.stringify(config)
+    await fse.writeFile(configFile, rawConfig)
 }

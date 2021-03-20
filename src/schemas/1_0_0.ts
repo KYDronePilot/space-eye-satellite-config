@@ -1,4 +1,7 @@
-import {RootSatelliteConfig as RootSatelliteConfigBase, SchemaInfo} from '../base'
+import {saveConfig} from '../base'
+import {RootSatelliteConfig as RootSatelliteConfig_1_0_1} from './1_0_1'
+
+export const version = '1.0.0'
 
 /**
  * Information about a particular image source.
@@ -45,31 +48,12 @@ export interface RootSatelliteConfig {
  * @param baseConfig - The base config
  * @return Version 1.0.0 config
  */
-export function transform(
-    baseConfig: RootSatelliteConfigBase
-): RootSatelliteConfig {
-    return {
-        ...baseConfig,
-        satellites: baseConfig.satellites.map((satellite) => ({
-          ...satellite,
-          views: satellite.views.map((view) => ({ 
-              ...view,
-              imageSources: view.imageSources.map(imageSource => ({
-                id: imageSource.id,
-                url: imageSource.url,
-                estimatedSize: imageSource.estimatedSize,
-                updateInterval: imageSource.updateInterval,
-                dimensions: imageSource.dimensions,
-                isThumbnail: imageSource.isThumbnail,
-              }))
-           })),
-        })),
+export async function transform(
+    baseConfig: RootSatelliteConfig_1_0_1
+) {
+    const config: RootSatelliteConfig = {
+        version,
+        satellites: baseConfig.satellites
       };
-}
-
-export const version = '1.0.0'
-
-export const info: SchemaInfo = {
-    transformer: transform,
-    version
+    await saveConfig(config, version)
 }
