@@ -1,4 +1,4 @@
-name: Space Eye Satellite Config CI
+name: Publish configs to S3
 
 on:
   push:
