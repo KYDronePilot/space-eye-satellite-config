@@ -1,5 +1,6 @@
-import {RootSatelliteConfig as RootSatelliteConfigBase, Satellite, saveConfig} from '../base'
+import { Satellite, saveConfig} from '../base'
 import {transform as transform_1_0_1} from './1_0_1'
+import {RootSatelliteConfig as RootSatelliteConfig_1_1_1} from './latest'
 
 export {Satellite, SatelliteView, ImageSource, ScalingOption} from '../base'
 
@@ -17,7 +18,7 @@ export interface RootSatelliteConfig {
  *
  * @param baseConfig - The base config
  */
-export async function transform(baseConfig: RootSatelliteConfigBase) {
+export async function transform(baseConfig: RootSatelliteConfig_1_1_1) {
     const config: RootSatelliteConfig = {
         satellites: baseConfig.satellites
     }

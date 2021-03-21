@@ -1,6 +1,6 @@
 import { saveConfig } from '../base'
 import {Satellite, transform as transform_1_0_0} from './1_0_0'
-import {RootSatelliteConfig as RootSatelliteConfig_1_1_0} from './latest'
+import {RootSatelliteConfig as RootSatelliteConfig_1_1_0} from './1_1_0'
 
 export {ImageSource, SatelliteView, Satellite} from './1_0_0'
 

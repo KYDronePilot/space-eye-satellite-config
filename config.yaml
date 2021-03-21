@@ -1,4 +1,7 @@
 version: "0.1.0"
+dnsHttpProbeOverride:
+  - imagery.spaceeye.app
+  - spaceeye-satellite-configs.s3.us-east-2.amazonaws.com
 satellites:
   - id: 0
     name: GOES-East

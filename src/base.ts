@@ -49,6 +49,7 @@ export interface Satellite {
 export interface RootSatelliteConfig {
     version: string
     satellites: Satellite[]
+    dnsHttpProbeOverride: string[]
 }
 
 export interface SchemaInfo {
