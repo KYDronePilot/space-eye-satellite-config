@@ -1,7 +1,7 @@
-import {RootSatelliteConfig as RootSatelliteConfigBase, Satellite, saveConfig} from '../base'
-import {transform as transform_1_1_0} from './1_1_0'
+import { RootSatelliteConfig as RootSatelliteConfigBase, Satellite, saveConfig } from '../base'
+import { transform as transform_1_1_0 } from './1_1_0'
 
-export {Satellite, SatelliteView, ImageSource, ScalingOption} from '../base'
+export { Satellite, SatelliteView, ImageSource, ScalingOption } from '../base'
 
 export const version = '1.1.1'
 
@@ -21,7 +21,7 @@ export interface RootSatelliteConfig {
 export async function transform(baseConfig: RootSatelliteConfigBase) {
     const config: RootSatelliteConfig = {
         satellites: baseConfig.satellites,
-        dnsHttpProbeOverride: baseConfig.dnsHttpProbeOverride
+        dnsHttpProbeOverride: baseConfig.dnsHttpProbeOverride,
     }
     await saveConfig(config, version)
     await transform_1_1_0(config)

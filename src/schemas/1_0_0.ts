@@ -1,5 +1,5 @@
-import {saveConfig} from '../base'
-import {RootSatelliteConfig as RootSatelliteConfig_1_0_1} from './1_0_1'
+import { saveConfig } from '../base'
+import { RootSatelliteConfig as RootSatelliteConfig_1_0_1 } from './1_0_1'
 
 export const version = '1.0.0'
 
@@ -48,12 +48,10 @@ export interface RootSatelliteConfig {
  * @param baseConfig - The base config
  * @return Version 1.0.0 config
  */
-export async function transform(
-    baseConfig: RootSatelliteConfig_1_0_1
-) {
+export async function transform(baseConfig: RootSatelliteConfig_1_0_1) {
     const config: RootSatelliteConfig = {
         version,
-        satellites: baseConfig.satellites
-      };
+        satellites: baseConfig.satellites,
+    }
     await saveConfig(config, version)
 }

@@ -8,7 +8,7 @@ const CONFIG_DIST = path.join(__dirname, '..', 'config_dist')
  */
 export enum ScalingOption {
     fit = 'fit',
-    fill = 'fill'
+    fill = 'fill',
 }
 
 /**
