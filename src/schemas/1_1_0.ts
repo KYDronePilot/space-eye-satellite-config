@@ -1,6 +1,6 @@
 import { Satellite, saveConfig } from '../base'
 import { transform as transform_1_0_1 } from './1_0_1'
-import { RootSatelliteConfig as RootSatelliteConfig_1_1_1 } from './latest'
+import { RootSatelliteConfig as RootSatelliteConfig_1_1_1 } from './1_1_1'
 
 export { Satellite, SatelliteView, ImageSource, ScalingOption } from '../base'
 
