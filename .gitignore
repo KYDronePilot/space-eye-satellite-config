@@ -158,4 +158,3 @@ dist
 
 # Ignore build files
 /dest
-/config_dist

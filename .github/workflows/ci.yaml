@@ -1,19 +1,17 @@
 name: Space Eye Satellite Config CI
 
-on: [push]
+on:
+  push:
+    paths:
+      - "config_dist/**"
 
 jobs:
-  build:
+  publish-s3:
 
     runs-on: ubuntu-20.04
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
-      - run: npm ci
-      - run: gulp build-yaml
 
       - uses: jakejarvis/s3-sync-action@v0.5.1
         with:
