@@ -31,6 +31,7 @@ export interface SatelliteView {
     id: number
     name: string
     imageSources: ImageSource[]
+    description?: string
     isThumbnail?: boolean
 }
 

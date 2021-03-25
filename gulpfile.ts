@@ -2,7 +2,7 @@ import gulp from 'gulp'
 import path from 'path'
 import jsYaml from 'js-yaml'
 import { RootSatelliteConfig } from './src/base'
-import { transform } from './src/schemas/1_1_1'
+import { transform } from './src/schemas/1_2_0'
 import fse from 'fs-extra'
 
 const CONFIG_DIST = path.join(__dirname, 'config_dist')

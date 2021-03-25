@@ -337,6 +337,7 @@ satellites:
     views:
       - id: 10
         name: Full Disk (Beta testing new view; may change)
+        description: Beta testing new view; may change
         imageSources:
           - id: 40
             url: https://imagery.spaceeye.app/meteosat-8/full-disk/thumbnail.jpg
@@ -372,6 +373,7 @@ satellites:
     views:
       - id: 11
         name: Full Disk (Beta testing new view; may change)
+        description: Beta testing new view; may change
         imageSources:
           - id: 44
             url: https://imagery.spaceeye.app/meteosat-11/full-disk/thumbnail.jpg
