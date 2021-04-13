@@ -304,32 +304,32 @@ satellites:
         name: Full Disk
         imageSources:
           - id: 36
-            url: http://rammb.cira.colostate.edu/ramsdis/online/images/thumb/himawari-8/full_disk_ahi_true_color.jpg
-            estimatedSize: 38K
+            url: https://imagery.spaceeye.app/himawari/full-disk/thumbnail.jpg
+            estimatedSize: 14.8K
             updateInterval: 1200
-            dimensions: [200, 200]
+            dimensions: [270, 270]
             isThumbnail: true
             defaultScaling: fit
 
           - id: 37
-            url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest/himawari-8/full_disk_ahi_true_color.jpg
-            estimatedSize: 518K
+            url: https://imagery.spaceeye.app/himawari/full-disk/2k.jpg
+            estimatedSize: 316.7K
             updateInterval: 1200
-            dimensions: [800, 800]
+            dimensions: [1440, 1440]
             defaultScaling: fit
 
           - id: 38
-            url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest_hi_res/himawari-8/full_disk_ahi_true_color.jpg
-            estimatedSize: 21M
+            url: https://imagery.spaceeye.app/himawari/full-disk/5k.jpg
+            estimatedSize: 1.1M
             updateInterval: 1200
-            dimensions: [5500, 5500]
+            dimensions: [2880, 2880]
             defaultScaling: fit
 
           - id: 39
-            url: http://rammb.cira.colostate.edu/ramsdis/online/images/latest_hi_res/himawari-8/full_disk_ahi_true_color.jpg
-            estimatedSize: 21M
+            url: https://imagery.spaceeye.app/himawari/full-disk/8k.jpg
+            estimatedSize: 2.2M
             updateInterval: 1200
-            dimensions: [5500, 5500]
+            dimensions: [4320, 4320]
             defaultScaling: fit
 
   - id: 3
