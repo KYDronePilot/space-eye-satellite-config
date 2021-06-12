@@ -10,32 +10,32 @@ satellites:
         name: Full Disk
         imageSources:
           - id: 0
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/thumbnail.jpg
-            estimatedSize: 26K
+            url: https://imagery.spaceeye.app/goes-16/full-disk/thumbnail.jpg
+            estimatedSize: 19.7K
             updateInterval: 1200
-            dimensions: [339, 339]
+            dimensions: [270, 270]
             isThumbnail: true
             defaultScaling: fit
 
           - id: 1
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/678x678.jpg
-            estimatedSize: 88K
+            url: https://imagery.spaceeye.app/goes-16/full-disk/2k.jpg
+            estimatedSize: 393K
             updateInterval: 1200
-            dimensions: [678, 678]
+            dimensions: [1440, 1440]
             defaultScaling: fit
 
           - id: 2
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/5424x5424.jpg
-            estimatedSize: 3.1M
+            url: https://imagery.spaceeye.app/goes-16/full-disk/5k.jpg
+            estimatedSize: 1.3M
             updateInterval: 1200
-            dimensions: [5424, 5424]
+            dimensions: [2880, 2880]
             defaultScaling: fit
 
           - id: 3
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/latest.jpg
-            estimatedSize: 48M
-            updateInterval: 3600
-            dimensions: [10848, 10848]
+            url: https://imagery.spaceeye.app/goes-16/full-disk/8k.jpg
+            estimatedSize: 2.6M
+            updateInterval: 1200
+            dimensions: [4320, 4320]
             defaultScaling: fit
 
       - id: 1
@@ -74,30 +74,30 @@ satellites:
         name: Tropical Atlantic
         imageSources:
           - id: 8
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/thumbnail.jpg
-            estimatedSize: 121K
+            url: https://imagery.spaceeye.app/goes-16/tropical-atlantic/thumbnail.jpg
+            estimatedSize: 32.4K
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
             defaultScaling: fill
 
           - id: 9
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/900x540.jpg
-            estimatedSize: 393K
+            url: https://imagery.spaceeye.app/goes-16/tropical-atlantic/2k.jpg
+            estimatedSize: 669.1K
             updateInterval: 1200
-            dimensions: [900, 540]
+            dimensions: [2400, 1440]
             defaultScaling: fill
 
           - id: 10
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/3600x2160.jpg
-            estimatedSize: 3.8M
+            url: https://imagery.spaceeye.app/goes-16/tropical-atlantic/5k.jpg
+            estimatedSize: 2M
             updateInterval: 1200
-            dimensions: [3600, 2160]
+            dimensions: [4800, 2880]
             defaultScaling: fill
 
           - id: 11
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/taw/GEOCOLOR/latest.jpg
-            estimatedSize: 11M
+            url: https://imagery.spaceeye.app/goes-16/tropical-atlantic/8k.jpg
+            estimatedSize: 4.2M
             updateInterval: 1200
             dimensions: [7200, 4320]
             defaultScaling: fill
@@ -106,30 +106,30 @@ satellites:
         name: Northern South America
         imageSources:
           - id: 12
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/thumbnail.jpg
-            estimatedSize: 122K
+            url: https://imagery.spaceeye.app/goes-16/northern-south-america/thumbnail.jpg
+            estimatedSize: 33.5K
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
             defaultScaling: fill
 
           - id: 13
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/900x540.jpg
-            estimatedSize: 401K
+            url: https://imagery.spaceeye.app/goes-16/northern-south-america/2k.jpg
+            estimatedSize: 713.9K
             updateInterval: 1200
-            dimensions: [900, 540]
+            dimensions: [2400, 1440]
             defaultScaling: fill
 
           - id: 14
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/3600x2160.jpg
-            estimatedSize: 4.0M
+            url: https://imagery.spaceeye.app/goes-16/northern-south-america/5k.jpg
+            estimatedSize: 2.1M
             updateInterval: 1200
-            dimensions: [3600, 2160]
+            dimensions: [4800, 2880]
             defaultScaling: fill
 
           - id: 15
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nsa/GEOCOLOR/latest.jpg
-            estimatedSize: 12M
+            url: https://imagery.spaceeye.app/goes-16/northern-south-america/8k.jpg
+            estimatedSize: 4.7M
             updateInterval: 1200
             dimensions: [7200, 4320]
             defaultScaling: fill
@@ -138,30 +138,30 @@ satellites:
         name: Southern South America
         imageSources:
           - id: 16
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/thumbnail.jpg
-            estimatedSize: 114K
+            url: https://imagery.spaceeye.app/goes-16/southern-south-america/thumbnail.jpg
+            estimatedSize: 25.4K
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
             defaultScaling: fill
 
           - id: 17
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/900x540.jpg
-            estimatedSize: 387K
+            url: https://imagery.spaceeye.app/goes-16/southern-south-america/2k.jpg
+            estimatedSize: 515K
             updateInterval: 1200
-            dimensions: [900, 540]
+            dimensions: [2400, 1440]
             defaultScaling: fill
 
           - id: 18
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/3600x2160.jpg
-            estimatedSize: 4.2M
+            url: https://imagery.spaceeye.app/goes-16/southern-south-america/5k.jpg
+            estimatedSize: 1.5M
             updateInterval: 1200
-            dimensions: [3600, 2160]
+            dimensions: [4800, 2880]
             defaultScaling: fill
 
           - id: 19
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ssa/GEOCOLOR/latest.jpg
-            estimatedSize: 13M
+            url: https://imagery.spaceeye.app/goes-16/southern-south-america/8k.jpg
+            estimatedSize: 3.3M
             updateInterval: 1200
             dimensions: [7200, 4320]
             defaultScaling: fill
