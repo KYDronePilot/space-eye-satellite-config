@@ -42,32 +42,32 @@ satellites:
         name: Continental US
         imageSources:
           - id: 4
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/thumbnail.jpg
-            estimatedSize: 26K
+            url: https://imagery.spaceeye.app/goes-16/continental-us/thumbnail.jpg
+            estimatedSize: 38K
             updateInterval: 1200
-            dimensions: [416, 250]
+            dimensions: [450, 270]
             isThumbnail: true
             defaultScaling: fill
 
           - id: 5
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/625x375.jpg
-            estimatedSize: 53K
+            url: https://imagery.spaceeye.app/goes-16/continental-us/2k.jpg
+            estimatedSize: 629K
             updateInterval: 1200
-            dimensions: [625, 375]
+            dimensions: [2400, 1440]
             defaultScaling: fill
 
           - id: 6
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/5000x3000.jpg
-            estimatedSize: 8.9M
+            url: https://imagery.spaceeye.app/goes-16/continental-us/5k.jpg
+            estimatedSize: 1.8M
             updateInterval: 1200
-            dimensions: [5000, 3000]
+            dimensions: [4800, 2880]
             defaultScaling: fill
 
           - id: 7
-            url: https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/latest.jpg
-            estimatedSize: 8.9M
+            url: https://imagery.spaceeye.app/goes-16/continental-us/8k.jpg
+            estimatedSize: 3.4M
             updateInterval: 1200
-            dimensions: [5000, 3000]
+            dimensions: [7200, 4320]
             defaultScaling: fill
 
       - id: 2
@@ -173,62 +173,62 @@ satellites:
         name: Full Disk
         imageSources:
           - id: 20
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/thumbnail.jpg
-            estimatedSize: 26K
+            url: https://imagery.spaceeye.app/goes-17/full-disk/thumbnail.jpg
+            estimatedSize: 19K
             updateInterval: 1200
-            dimensions: [339, 339]
+            dimensions: [270, 270]
             isThumbnail: true
             defaultScaling: fit
 
           - id: 21
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/678x678.jpg
-            estimatedSize: 94K
+            url: https://imagery.spaceeye.app/goes-17/full-disk/2k.jpg
+            estimatedSize: 361K
             updateInterval: 1200
-            dimensions: [678, 678]
+            dimensions: [1440, 1440]
             defaultScaling: fit
 
           - id: 22
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/5424x5424.jpg
-            estimatedSize: 3.9M
+            url: https://imagery.spaceeye.app/goes-17/full-disk/5k.jpg
+            estimatedSize: 1.2M
             updateInterval: 1200
-            dimensions: [5424, 5424]
+            dimensions: [2880, 2880]
             defaultScaling: fit
 
           - id: 23
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/FD/GEOCOLOR/latest.jpg
-            estimatedSize: 66M
-            updateInterval: 3600
-            dimensions: [10848, 10848]
+            url: https://imagery.spaceeye.app/goes-17/full-disk/8k.jpg
+            estimatedSize: 2.3M
+            updateInterval: 1200
+            dimensions: [4320, 4320]
             defaultScaling: fit
 
       - id: 6
         name: Tropical Pacific
         imageSources:
           - id: 24
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/thumbnail.jpg
-            estimatedSize: 145K
+            url: https://imagery.spaceeye.app/goes-17/tropical-pacific/thumbnail.jpg
+            estimatedSize: 32K
             updateInterval: 1200
             dimensions: [450, 270]
             isThumbnail: true
             defaultScaling: fill
 
           - id: 25
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/900x540.jpg
-            estimatedSize: 512K
+            url: https://imagery.spaceeye.app/goes-17/tropical-pacific/2k.jpg
+            estimatedSize: 664K
             updateInterval: 1200
-            dimensions: [900, 540]
+            dimensions: [2400, 1440]
             defaultScaling: fill
 
           - id: 26
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/3600x2160.jpg
-            estimatedSize: 6.2M
+            url: https://imagery.spaceeye.app/goes-17/tropical-pacific/5k.jpg
+            estimatedSize: 2.0M
             updateInterval: 1200
-            dimensions: [3600, 2160]
+            dimensions: [4800, 2880]
             defaultScaling: fill
 
           - id: 27
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/latest.jpg
-            estimatedSize: 21M
+            url: https://imagery.spaceeye.app/goes-17/tropical-pacific/8k.jpg
+            estimatedSize: 4.2M
             updateInterval: 1200
             dimensions: [7200, 4320]
             defaultScaling: fill
@@ -237,32 +237,32 @@ satellites:
         name: US West Coast
         imageSources:
           - id: 28
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/thumbnail.jpg
-            estimatedSize: 26K
+            url: https://imagery.spaceeye.app/goes-17/us-west-coast/thumbnail.jpg
+            estimatedSize: 41K
             updateInterval: 1200
-            dimensions: [416, 250]
+            dimensions: [450, 270]
             isThumbnail: true
             defaultScaling: fill
 
           - id: 29
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/625x375.jpg
-            estimatedSize: 54K
+            url: https://imagery.spaceeye.app/goes-17/us-west-coast/2k.jpg
+            estimatedSize: 752K
             updateInterval: 1200
-            dimensions: [625, 375]
+            dimensions: [2400, 1440]
             defaultScaling: fill
 
           - id: 30
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/5000x3000.jpg
-            estimatedSize: 11M
+            url: https://imagery.spaceeye.app/goes-17/us-west-coast/5k.jpg
+            estimatedSize: 2.2M
             updateInterval: 1200
-            dimensions: [5000, 3000]
+            dimensions: [4800, 2880]
             defaultScaling: fill
 
           - id: 31
-            url: https://cdn.star.nesdis.noaa.gov/GOES17/ABI/CONUS/GEOCOLOR/latest.jpg
-            estimatedSize: 11M
+            url: https://imagery.spaceeye.app/goes-17/us-west-coast/8k.jpg
+            estimatedSize: 4.0M
             updateInterval: 1200
-            dimensions: [5000, 3000]
+            dimensions: [7200, 4320]
             defaultScaling: fill
 
       - id: 8
