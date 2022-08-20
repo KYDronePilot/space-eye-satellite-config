@@ -401,3 +401,38 @@ satellites:
             updateInterval: 900
             dimensions: [3712, 3712]
             defaultScaling: fit
+
+  - id: 5
+    name: Meteosat-9
+    views:
+      - id: 12
+        name: Full Disk
+        imageSources:
+          - id: 48
+            url: https://imagery.spaceeye.app/meteosat-9/full-disk/thumbnail.jpg
+            estimatedSize: 100.2K
+            updateInterval: 900
+            dimensions: [464, 464]
+            isThumbnail: true
+            defaultScaling: fit
+
+          - id: 49
+            url: https://imagery.spaceeye.app/meteosat-9/full-disk/small.jpg
+            estimatedSize: 367.6K
+            updateInterval: 900
+            dimensions: [928, 928]
+            defaultScaling: fit
+
+          - id: 50
+            url: https://imagery.spaceeye.app/meteosat-9/full-disk/medium.jpg
+            estimatedSize: 1.3M
+            updateInterval: 900
+            dimensions: [1856, 1856]
+            defaultScaling: fit
+
+          - id: 51
+            url: https://imagery.spaceeye.app/meteosat-9/full-disk/large.jpg
+            estimatedSize: 4.8M
+            updateInterval: 900
+            dimensions: [3712, 3712]
+            defaultScaling: fit
